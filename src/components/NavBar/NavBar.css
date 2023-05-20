@@ -1,0 +1,26 @@
+* {
+    text-decoration: none !important;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px dashed rgb(184, 142, 37);
+}
+
+li {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+li:hover {
+    font-size: 1.5rem;
+    background-color: rgb(229, 245, 250);
+}
+
+.imgAfa {
+    width: 4rem;
+}
